@@ -11,7 +11,7 @@ int main(){
 	FILE *fr = fopen("C_test.txt", "r");
 	char string[255];
 	if (fr != NULL){
-		//fscanf(fr, "%s", string);//fscanf finish reading when it encounters spacebar
+		//while( fscanf(fr, "%s", string) >0)//fscanf finish reading when it encounters spacebar
 		while( fgets(string, sizeof(string), fr) != NULL){
 			printf("%s", string);
 		}
