@@ -1,0 +1,16 @@
+Query: select max 1950 damage_property insertion
+	1950
+		Event Id: 10009718
+		State: ILLINOIS
+		Year: 1950
+		Month: December
+		Event Type: Tornado
+		County/Parish/Marine: C
+		County/Parish/Marine Name: MADISON
+		Injuries Direct: 0
+		Injuries Indirect: 0
+		Deaths Direct: 0
+		Deaths Indirect: 0
+		Damage to Property: $2500000
+		Damage to Crops: $0
+

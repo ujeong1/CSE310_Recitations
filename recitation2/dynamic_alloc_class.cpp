@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <new>
 class example{
 	public:
 	int value;
@@ -7,7 +8,7 @@ class example{
 };
 
 int main () {
-        example* myObjs = new example [sizeof(class example) * 2];
+        example* myObjs = new example [sizeof(example) * 2];
         myObjs[0].value = 0;
         strcpy(myObjs[1].string, "Hello World");
 
