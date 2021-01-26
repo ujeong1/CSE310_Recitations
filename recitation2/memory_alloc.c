@@ -11,6 +11,9 @@ void main () {
    strcpy(memory1, "I am memory 1\n"); 
    strcpy(memory2, "I am memory 2\n");
 
+   //memory1 = "I am memory 1\n";
+   //memory2 = "I am memory 2\n";
+
    printf("size : %d, contents : %s", sizeof(memory1), memory1);
    printf("size : %d, contents : %s", sizeof(memory2), memory2);
 
