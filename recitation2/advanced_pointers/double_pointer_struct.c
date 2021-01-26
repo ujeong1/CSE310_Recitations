@@ -12,8 +12,6 @@ int main(){
 	for(i=0; i<2; i++){
 		MyObj1[i] = (struct node*)malloc(sizeof(struct node));
 	}	
-	//PtrObj->value = -1000;
-	//printf("%d", PtrObj->value);
 
 	MyObj1[0]->value = 1;
 	strcpy(MyObj1[1]->string, "memory1");
