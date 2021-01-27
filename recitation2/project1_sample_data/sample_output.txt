@@ -13,4 +13,3 @@ Query: select max 1950 damage_property insertion
 		Deaths Indirect: 0
 		Damage to Property: $2500000
 		Damage to Crops: $0
-
