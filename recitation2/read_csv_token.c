@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-int main(){
-	FILE*stream = fopen("fatalities-1950.csv", "r");
+int main(int argc, char* argv[]){
+	FILE*stream = fopen(argv[1], "r");
 	char string[255];
 	char header[255];
 	char* token;
