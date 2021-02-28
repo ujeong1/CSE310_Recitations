@@ -5,7 +5,7 @@ using namespace std;
 class node {
 public:
     int value;
-    struct node *next;
+    class *next;
 };
 
 node* conversion(node* cur){
