@@ -1,15 +1,15 @@
 # Recitation 7
 
-1. You can test memory leakage of linked_list example by
+1. You can test memory use of linked_list_class.cpp example by
 
 <pre>
 g++ linked_list.cpp -o test
 valgrind ./test.out
 </pre>
 
-2. You can compile multiple source codes by Makefile
+2. You can test to compile multiple source codes by makefile
 
 <pre>
-makefile app_name
+make app_name
 ./app_name
 </pre>
