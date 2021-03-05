@@ -14,4 +14,4 @@ make app_name
 ./app_name
 </pre>
 
-3. Think about how we can use prime.cc based on above example (without <pre>#include<prime.cc></pre>)
+3. Think about how we can use prime.cc based on above example (without <code>#include<prime.cc></code>)
